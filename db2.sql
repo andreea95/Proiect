@@ -5,10 +5,10 @@ CREATE DATABASE `manager_contacte` DEFAULT CHARACTER SET latin1 COLLATE latin1_s
 USE `manager_contacte`;
 
 CREATE TABLE `persoana` (
-    `persoanaId` int NOT NULL,
+    `persoanaId` int NOT NULL AUTO_INCREMENT,
     `nume` varchar(50) NOT NULL,
     `porecla` varchar(50),
-    `domiciuliu` varchar(150),
+    `domiciliu` varchar(150),
     `data_de_nastere` date,
     
     
@@ -17,7 +17,7 @@ CREATE TABLE `persoana` (
 );
 
 CREATE TABLE contact (
-    `contactId` int NOT NULL  PRIMARY KEY,
+    `contactId` int NOT NULL  PRIMARY KEY AUTO_INCREMENT,
      `persoanaId` int NOT NULL,
      `telefon` varchar(50),
      `telefon_secundar` varchar(50),
