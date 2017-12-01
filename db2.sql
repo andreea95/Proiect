@@ -16,7 +16,7 @@ CREATE TABLE `persoana` (
    
 );
 
-CREATE TABLE contact (
+CREATE TABLE `contact (
     `contactId` int NOT NULL  PRIMARY KEY AUTO_INCREMENT,
      `persoanaId` int NOT NULL,
      `telefon` varchar(50),
