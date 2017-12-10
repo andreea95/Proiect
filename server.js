@@ -179,7 +179,7 @@ app.get('/persoane/:id/contacte', function(request, response) {
 
 
 
-//initializam implicit 2 instante de tip persoana si contact
+//initializare implicit 2 instante de tip persoana si contact
 // const persoana1 = Persoana.build({
 //   nume: 'Radu Anca',
 //   domiciliu: 'Strada Lalelelor',
